@@ -1,9 +1,15 @@
-let num = 14;
+let number = 14;
 
+let factors = 0;
 
-
-for(let i=0;i<=num;i++){
-   if(num % i == 0){
-    console.log(num);
+for(let i=0;i<=number;i++){
+   if(number % i == 0){
+    factors++;
   }
+}
+if(factors == 2){
+  console.log("Prime");
+}
+else {
+  console.log("Not Prime");
 }
